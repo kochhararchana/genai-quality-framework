@@ -8,8 +8,7 @@ __pycache__/
 # Pytest cache
 .pytest_cache/
 
-# Generated test reports
-report.html
+# Generated test reports intentionally included as portfolio evidence
 
 # Environment variables / secrets
 .env
