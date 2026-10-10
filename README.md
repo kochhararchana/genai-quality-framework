@@ -143,3 +143,21 @@ To address this, an LLM-as-a-Judge semantic evaluator was introduced for tests w
 The current test suite contains **9 automated test cases**, with all **9 passing in the latest full test run**.
 
 This project is intended as a learning and portfolio project demonstrating practical approaches to automated quality testing for Generative AI applications.
+
+Latest test execution: **9/9 tests passed**
+
+The automated test suite covers:
+- Factual accuracy
+- Hallucination detection
+- Response consistency
+- Prompt injection resistance
+- Sensitive information protection
+- Out-of-scope question handling
+
+Run the test suite:
+
+python -m pytest
+
+Generate the HTML report:
+
+python -m pytest --html=report.html --self-contained-html
